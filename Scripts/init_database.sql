@@ -1,0 +1,11 @@
+Use master;
+CREATE DATABASE DataWarehouse1
+
+USE DataWarehouse1;
+
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA SILVER;
+GO
+CREATE SCHEMA gold;
+GO
